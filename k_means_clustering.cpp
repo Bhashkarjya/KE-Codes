@@ -32,6 +32,7 @@ struct Point {
 vector<Point> readcsv() {
 
 //link to get the csv file https://github.com/robertmartin8/udemyML/blob/master/06_clustering/Mall_Customers.csv
+    //Link to documentation https://reasonabledeviations.com/2019/10/02/k-means-in-cpp/
     vector<Point> points;
     string line;
     ifstream file("mall_data.csv");
